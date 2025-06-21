@@ -1,36 +1,97 @@
 <template>
-  <div class="intro">
-    <h1>Welcome to My Introduction Page</h1>
-    <p>Hi! I'm Lyndon, and this is my intro for WEBPROG AFD241.</p>
-    <ul>
-      <li>📍 Location: Hayward, CA</li>
-      <li>🎓 Course: Web Programming</li>
-      <li>🎯 Interests: Scale models, RC cars, and coding</li>
-    </ul>
+  <div class="container">
+    <header>
+      <h2>Lyndon Baranda</h2>
+      <p>Hayward California</p>
+    </header>
+
+    <main>
+      <section class="flex-con type1">
+        <h3>Profession and Education:</h3>
+        <p>Tesla (TSLA)</p>
+        <p>BIM Specialist/Electrical Designer</p>
+        <p>BIM-CM Building Information Modeling - Construction Management</p>
+        <p>Bachelor of Science in Computer Science - BSCS-IT SSE</p>
+      </section>
+
+      <section class="flex-con type1">
+        <div class="flex-con type2">
+          <h3>Hobbies & Interests:</h3>
+        </div>
+        <div class="flex-con type2">
+          <div class="flex-com type3" @click="myWelder">
+            <img src="images/welderlogo.png" alt="Welder">
+          </div>
+          <div class="flex-com type3" @click="myOffroad">
+            <img src="images/offroadlogo.png" alt="Offroad">
+          </div>
+          <div class="flex-com type3" @click="myHike">
+            <img src="images/hikinglogo.png" alt="Hiking">
+          </div>
+          <div class="flex-com type3" @click="myRadio">
+            <img src="images/radiologo.png" alt="Radio">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Picture Gallery</p>
+      <div id="imageApp">
+        <figure v-for="x in manyWelds" :key="x.url">
+          <img :src="x.url" height="256px" />
+        </figure>
+      </div>
+    </footer>
+
+    <div>References:</div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'IntroPage',
+  data() {
+    return {
+      manyWelds: [
+        { url: 'images/weld1.jpg' },
+        { url: 'images/weld2.jpg' },
+        // Add more image objects as needed
+      ]
+    };
+  },
+  methods: {
+    myWelder() {
+      console.log('Welder clicked');
+    },
+    myOffroad() {
+      console.log('Offroad clicked');
+    },
+    myHike() {
+      console.log('Hiking clicked');
+    },
+    myRadio() {
+      console.log('Radio clicked');
+    }
+  }
 };
 </script>
 
 <style scoped>
-.intro {
-  font-family: Arial, sans-serif;
+.container {
   padding: 2rem;
-  background-color: #f0f0f0;
-  border-radius: 8px;
+  font-family: sans-serif;
 }
-.intro h1 {
-  color: #333;
+.flex-con {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.intro ul {
-  list-style: none;
-  padding: 0;
+.flex-com {
+  cursor: pointer;
 }
-.intro li {
-  margin: 0.5rem 0;
+img {
+  max-width: 100px;
+  height: auto;
 }
 </style>
