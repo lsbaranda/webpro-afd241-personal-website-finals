@@ -1,6 +1,6 @@
 <template>
   <div class="comment-section">
-    <h4>Signatures</h4>
+    <span class="title">Signatures</span>
 
     <ul>
       <li v-for="guestbook in guestbooks" :key="guestbook.id">

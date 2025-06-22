@@ -4,10 +4,14 @@
       <span class="title">Guestbook</span>
       <div class="flex-con type4">
       <label for="name">Name:</label>
+      </div>
+      <div class="flex-con type4">
       <input v-model="name" type="text" id="name" required />
       </div>
       <div class="flex-con type4">
       <label for="reason">Reason for visiting:</label>
+      </div>
+      <div class="flex-con type4">
       <textarea v-model="reason" id="reason" required></textarea>
       </div>
       <button type="submit">Sign Guestbook</button>
