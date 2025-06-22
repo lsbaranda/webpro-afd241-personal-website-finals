@@ -4,5 +4,5 @@ import './css/main.css';
 import HobbyInterest from './components/hobint.vue';
 
 const app = createApp(App)
-app.component('hobby-interest', HobbyInterest)
+app.component('hobbyinterest', HobbyInterest)
 app.mount('#app')
