@@ -35,25 +35,11 @@
         <guestlog/>
       </div>
     </footer>
-    <div>
-      <ul>
-       <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
-      </ul>
-    </div>
+
 
   </div>
 </template>
 
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { supabase } from '../supabaseClient'
-const instruments = ref([])
-async function getInstruments() {
-  const { data } = await supabase.from('instruments').select()
-  instruments.value = data
-}
-onMounted(() => {
-   getInstruments()
-})
 </script>
