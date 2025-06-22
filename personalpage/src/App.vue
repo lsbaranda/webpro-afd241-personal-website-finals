@@ -39,9 +39,7 @@
           </div> 
         </div>
 
-        <div class="flex-con type2">
-            <selection/>
-        </div>
+
           
 
       </div>
