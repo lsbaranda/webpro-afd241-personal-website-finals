@@ -52,7 +52,7 @@
             <img src="./images/hikinglogo.png"></img>
           </div>  
 
-          <divclass="flex-con type3">           
+          <div class="flex-con type3">           
             <img src="./images/radiologo.png"></img>
           </div> 
         </div> 
