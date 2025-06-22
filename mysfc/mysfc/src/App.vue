@@ -1,5 +1,4 @@
 <template>
-  <link rel="stylesheet" href="..css/css-flexbox-grid.css?version=0.1">
   <div class="container">
     <header>
       <h2>Lyndon Baranda</h2>
@@ -79,6 +78,8 @@ export default {
 </script>
 
 <style scoped>
+@import 'css/style.css';
+
 .container {
   padding: 2rem;
   font-family: sans-serif;
