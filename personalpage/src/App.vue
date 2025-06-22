@@ -24,6 +24,9 @@
       <div class="flex-con type2">
           <galleryhiking/>
       </div>
+      <div class="flex-con type2">
+          <galleryhiking/>
+      </div>
     </div>
           
     
