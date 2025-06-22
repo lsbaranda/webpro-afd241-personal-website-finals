@@ -10,6 +10,13 @@
 .flex-con {
   flex: auto;
 }
+
+.type0 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
   
 .type1 {
     display: flex;
@@ -17,7 +24,6 @@
     flex-direction: row;
     gap: 10px;
 }
-
 
 .type2 {
   display: grid;

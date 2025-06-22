@@ -1,7 +1,7 @@
 <template>
   <div class="container">
 
-    <header class="flex-con type1">
+    <header class="flex-con type0">
       <h1>Lyndon Baranda</h1>
     </header>
 
