@@ -55,14 +55,19 @@
           <div class="flex-con type3">           
             <img src="./images/radiologo.png"></img>
           </div> 
-        </div> 
+        </div>
+        <div>  
+          <ul>
+          <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
+          </ul>
+        </div>
 
       </div>
 
   </div>
 </template>
 
-<script setup>
+
 <script setup>
 import { ref, onMounted } from 'vue'
 import { supabase } from './lib/supabaseClient'
@@ -78,13 +83,3 @@ onMounted(() => {
    getInstruments()
 })
 </script>
-
-<template>
-  <ul>
-    <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
-  </ul>
-</template>
-</script>
-
-<style scoped>
-</style>
