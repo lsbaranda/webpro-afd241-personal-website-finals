@@ -32,6 +32,13 @@
   row-gap: 10px;
   grid-template-columns: auto auto;
 }
+.type25 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 10px;
+  row-gap: 10px;
+}
 .type3 {
   max-width: 192px;
   max-height: 192px;

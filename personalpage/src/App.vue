@@ -35,7 +35,7 @@
         <guestform/>
       </div>
       <br>
-      <div class="flex-con type2">
+      <div class="flex-con type25">
         <guestlog/>
       </div>
     </footer>
