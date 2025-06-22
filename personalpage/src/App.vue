@@ -54,6 +54,10 @@
         <documentation/>
 	    </div>
 
+      <div class="flex-con type1">
+        <references/>
+	    </div>
+
   </div>
 </template>
 
