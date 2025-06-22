@@ -1,7 +1,8 @@
 <template>
   <div>
+    <div class="flex-con type4">
     <span class="title">Signatures</span>
-
+    </div>
     <ul>
       <li v-for="guestbook in guestbooks" :key="guestbook.id" class="flex-con type4">
         <p> Visitor:  {{ guestbook.name }}</p> <p> Reason for visiting:  {{ guestbook.reason }}</p>

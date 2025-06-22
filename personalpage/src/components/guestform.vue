@@ -1,7 +1,9 @@
 <template>
   <div>
     <form @submit.prevent="submitForm" class="guestbook-form">
+      <div class="flex-con type4">
       <span class="title">Guestbook</span>
+      </div>
       <div class="flex-con type4">
       <label for="name">Name:</label>
       </div>
@@ -14,6 +16,7 @@
       <div class="flex-con type4">
       <textarea v-model="reason" id="reason" required></textarea>
       </div>
+      <div class="flex-con type4">  </div>
       <div class="flex-con type4">
       <button type="submit">Sign Guestbook</button>
       </div>
