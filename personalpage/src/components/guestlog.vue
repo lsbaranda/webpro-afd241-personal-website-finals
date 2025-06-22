@@ -1,9 +1,9 @@
 <template>
-  <div class="comment-section">
+  <div>
     <span class="title">Signatures</span>
 
     <ul>
-      <li v-for="guestbook in guestbooks" :key="guestbook.id">
+      <li v-for="guestbook in guestbooks" :key="guestbook.id" class="flex-con type4">
         <p> Visitor:  {{ guestbook.name }}</p> <p> Reason for visiting:  {{ guestbook.reason }}</p>
       </li>
     </ul>
