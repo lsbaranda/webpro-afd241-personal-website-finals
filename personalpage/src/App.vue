@@ -57,9 +57,7 @@
           </div> 
         </div>
           
-        <div class="flex-con type2">
-            <hobby-interest/>
-        </div>
+
 
 
       </div>
