@@ -1,5 +1,5 @@
 <template>
-    <div class="hiapp">
+    <div>
         <div id="lightDiv" v-for="(img, index) in images">
             <img v-bind:src="url" v-on:click=" lightOn =! lightOn ">
         </div>
@@ -24,7 +24,7 @@
       }
     }
    })
-app.mount('#hiapp')
+
 </script>
 
 <style>
