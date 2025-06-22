@@ -26,7 +26,13 @@
       </div>
           
 
+    </div>
+    <div class="flex-con type1">
+      <guestform/>
+      <div class="flex-con type1">
+        <guestlog/>
       </div>
+    </div>
 
   </div>
 </template>
