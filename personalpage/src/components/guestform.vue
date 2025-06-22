@@ -2,7 +2,7 @@
   <div>
     <form @submit.prevent="submitForm" class="guestbook-form">
       <div class="flex-con type4">
-      <span class="title">Guestbook</span>
+      <span class="title">Guestbook</span><br>
       </div>
       <div class="flex-con type4">
       <label for="name">Name:</label>
