@@ -26,19 +26,19 @@
         <div class="flex-con type2">
 
           <div id="clickWelder" class="flex-com type3">
-            <img onclick="myWelder()" src="../images/welderlogo.png"></img>
+            <img onclick="myWelder()" src="./images/welderlogo.png"></img>
           </div>  
 
           <div id="clickOffroad" class="flex-com type3">  
-            <img onclick="myOffroad()" src="../images/offroadlogo.png"></img>
+            <img onclick="myOffroad()" src="./images/offroadlogo.png"></img>
           </div>  
 
           <div id="clickHike" class="flex-com type3">                    
-            <img onclick="myHike()" src="../images/hikinglogo.png"></img>
+            <img onclick="myHike()" src="./images/hikinglogo.png"></img>
           </div>  
 
           <div id="clickRadio" class="flex-com type3">           
-            <img onclick="myRadio()" src="../images/radiologo.png"></img>
+            <img onclick="myRadio()" src="./images/radiologo.png"></img>
           </div> 
 
         </div> 
