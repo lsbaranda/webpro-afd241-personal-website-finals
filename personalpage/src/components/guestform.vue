@@ -1,21 +1,18 @@
 <template>
   <div>
-  <form @submit.prevent="submitForm" class="guestbook-form">
-    <h2>Guestbook</h2>
+    <form @submit.prevent="submitForm" class="guestbook-form">
+      <span class="title">Guestbook</span>
 
-    <label for="name">Name:</label>
-    <input v-model="name" type="text" id="name" required />
+      <label for="name">Name:</label>
+      <input v-model="name" type="text" id="name" required />
 
-    <label for="reason">Reason for visiting:</label>
-    <textarea v-model="reason" id="reason" required></textarea>
+      <label for="reason">Reason for visiting:</label>
+      <textarea v-model="reason" id="reason" required></textarea>
 
-    <button type="submit">Sign Guestbook</button>
-    <div v-if="submissionStatus" class="thank-you">
-
-    </div>
-
-  
-  </form>
+      <button type="submit">Sign Guestbook</button>
+      <div v-if="submissionStatus" class="thank-you">
+      </div>
+    </form>
   </div>
 </template>
 

@@ -8,7 +8,7 @@
 
     <div class="flex-con type1">
       <div>
-        <span class="title">Profession and Education:</span>
+        <span class="title">Profession and Education:</span><br>
         <span class="contents">Tesla (TSLA)</span>
         <span class="contents">BIM Specialist/Electrical Designer</span><br>
         <span class="contents">BIM-CM Building Information Modeling - Construction Management</span><br>
@@ -33,6 +33,7 @@
       <div class="flex-con type2">
         <guestform/>
       </div>
+      <br>
       <div class="flex-con type2">
         <guestlog/>
       </div>

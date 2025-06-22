@@ -50,7 +50,7 @@ footer {
 
 /* text */
 .title  {
-    color: #f0f0f0;
+    color: black;
     font-size: 18px;
     font-weight: 300;
     display: inline-block;
@@ -58,7 +58,7 @@ footer {
     font-family: Arial;
 }
 .contents  {
-    color: #f0f0f0;
+    color: black;
     font-size: 12px;
     font-weight: 300;
     display: inline-block;
