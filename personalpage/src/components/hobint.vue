@@ -1,5 +1,5 @@
 <template>
-    <div class="app">
+    <div class="hiapp">
         <div id="lightDiv" v-for="(img, index) in images">
             <img v-bind:src="url" v-on:click=" lightOn =! lightOn ">
         </div>
@@ -7,7 +7,7 @@
 </template>
 
 <script>
-    const app = Vue.createApp({
+    const hiapp = Vue.createApp({
     data() {
      return {
        images: [
@@ -24,7 +24,7 @@
       }
     }
    })
-app.mount('#app')
+app.mount('#hiapp')
 </script>
 
 <style>
