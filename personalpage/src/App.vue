@@ -37,7 +37,8 @@
           <div id="clickRadio" class="flex-con type3">           
             <img onclick="myRadio()" src="./images/radiologo.png"></img>
           </div> 
-        </div> 
+        </div>
+        </div>
 
 
 
@@ -46,10 +47,10 @@
   </div>
 </template>
 
-<script setup>
+<script>
   
 </script>
 
-<style scoped>
+<style>
 
 </style>
