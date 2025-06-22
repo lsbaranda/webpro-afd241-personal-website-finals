@@ -11,13 +11,6 @@ header {
     text-align: center;
 }
 
-body {
-    background-image:URL('../src/assets/transparent BG.png');
-    background-repeat: no-repeat;
-    background-size: 1920px;
-    font-family: Arial;
-}
-
 img {
     border-radius: 15px;
 }
