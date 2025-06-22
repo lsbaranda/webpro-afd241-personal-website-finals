@@ -3,7 +3,7 @@
 
     <header class="flex-con type0">
       <h1>Lyndon Baranda</h1>
-      <p>Hayward, California</p>
+      <span class="title">Hayward, California</span>
     </header>
 
     <div class="flex-con type1">
@@ -18,8 +18,9 @@
           
 
     <div class="flex-con type1">
-        <span class="title">Hobbies & Interests:</span><br>
-    
+      <div class="flex-con type4">
+        <span class="title">Hobbies & Interests:</span>
+      </div>
       <div class="flex-con type2">
           <galleryhiking/>
       </div>
