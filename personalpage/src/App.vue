@@ -1,47 +1,58 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div class="container">
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+    <header class="flex-item item1">
+      <h1>Lyndon Baranda</h1>
+    </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+    <div class="flex-con type1">
+
+        <h3>Profession and Education:</h3>
+          <br>Tesla (TSLA)
+          <br>BIM Specialist/Electrical Designer
+          <br>BIM-CM Building Information Modeling - Construction Management
+          <br>Bachelor of Science in Computer Science - BSCS-IT SSE
+          
+      </div>
+
+      <div class="flex-con type1">
+
+        <div class="flex-con type2">
+
+          <h3>Hobbies & Interests:</h3>
+
+        </div>
+
+        <div class="flex-con type2">
+
+          <div id="clickWelder" class="flex-com type3">
+            <img onclick="myWelder()" src="../images/welderlogo.png"></img>
+          </div>  
+
+          <div id="clickOffroad" class="flex-com type3">  
+            <img onclick="myOffroad()" src="../images/offroadlogo.png"></img>
+          </div>  
+
+          <div id="clickHike" class="flex-com type3">                    
+            <img onclick="myHike()" src="../images/hikinglogo.png"></img>
+          </div>  
+
+          <div id="clickRadio" class="flex-com type3">           
+            <img onclick="myRadio()" src="../images/radiologo.png"></img>
+          </div> 
+
+        </div> 
+      </div>
+    
+      <div class="flex-con type1">
+        <guestbook-form/>
+        <guestbook-logs/>
+        <documentation/>
+	</div>
+
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script setup>
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+</script>
