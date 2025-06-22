@@ -28,7 +28,14 @@
 
     </div>
     
-
+    <footer class="flex-con type1">
+      <div class="flex-con type2">
+        <guestform/>
+      </div>
+      <div class="flex-con type2">
+        <guestlog/>
+      </div>
+    </footer>
 
   </div>
 </template>
