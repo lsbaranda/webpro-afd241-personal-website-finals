@@ -21,24 +21,6 @@
           <h3>Hobbies & Interests:</h3>
         </div>
 
-        <div class="flex-con type2">
-          <div id="clickWelder" class="flex-con type3">
-            <img onclick="myWelder()" src="./images/welderlogo.png"></img>
-          </div>  
-
-          <div id="clickOffroad" class="flex-con type3">  
-            <img onclick="myOffroad()" src="./images/offroadlogo.png"></img>
-          </div>  
-
-          <div id="clickHike" class="flex-con type3">                    
-            <img onclick="myHike()" src="./images/hikinglogo.png"></img>
-          </div>  
-
-          <div id="clickRadio" class="flex-con type3">           
-            <img onclick="myRadio()" src="./images/radiologo.png"></img>
-          </div> 
-        </div>
-
         <div id="hiapp" class="flex-con type2">
           <div class="flex-con type3">
             <img src="./images/welderlogo.png"></img>
@@ -57,8 +39,6 @@
           </div> 
         </div>
           
-
-
 
       </div>
 
