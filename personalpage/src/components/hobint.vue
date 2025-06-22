@@ -1,29 +1,17 @@
 <template>
     <div>
-        <div id="lightDiv" v-for="(img, index) in images">
+        <div id="lightDiv" v-for="(img, index) in logos">
             <img v-bind:src="url" v-on:click=" lightOn =! lightOn ">
         </div>
     </div>
 </template>
 
 <script>
-    const hiapp = Vue.createApp({
-    data() {
-     return {
-       images: [
-         {url: './images/welderlogo.png', sel: false},
-         {url: './images/offroadlogo.png', sel: false},
-         {url: './images/hikinglogo.png', sel: false},
-         {url: './images/radiologo.png', sel: false}
-       ]
-     }
-    },
-    methods: {
-      select(number) {
-        this.images[number].sel = !this.images[number].sel
-      }
-    }
-   })
+  import { ref } from 'vue'
+    const logos = ref([
+         {src: './images/offroadlogo.png'},
+         {src: './images/hikinglogo.png'}
+       ])
 
 </script>
 
