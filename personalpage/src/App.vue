@@ -58,7 +58,7 @@
         </div>
           
         <div class="flex-con type2">
-            Hobby Interest<hobby-interest/>
+            <hobby-interest/>
         </div>
 
 
