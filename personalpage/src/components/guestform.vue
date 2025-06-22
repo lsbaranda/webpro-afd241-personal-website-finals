@@ -2,13 +2,14 @@
   <div>
     <form @submit.prevent="submitForm" class="guestbook-form">
       <span class="title">Guestbook</span>
-
+      <div class="flex-con type4">
       <label for="name">Name:</label>
       <input v-model="name" type="text" id="name" required />
-
+      </div>
+      <div class="flex-con type4">
       <label for="reason">Reason for visiting:</label>
       <textarea v-model="reason" id="reason" required></textarea>
-
+      </div>
       <button type="submit">Sign Guestbook</button>
       <div v-if="submissionStatus" class="thank-you">
       </div>
