@@ -16,18 +16,18 @@
         <br>BIM-CM Building Information Modeling - Construction Management
         <br>Bachelor of Science in Computer Science - BSCS-IT SSE
       </div>
+    </div>
           
 
-      <div class="flex-con type1">
+    <div class="flex-con type1">
         <h3>Hobbies & Interests:</h3>
-      </div>
-      <div class="flex-con type2">
-          <galleryhiking/>
-      </div>
-      <div class="flex-con type2">
-          <galleryhiking/>
-      </div>
     </div>
+      
+          <galleryhiking/>
+      
+          <galleryhiking/>
+      
+    
           
     
     <footer class="flex-con type1">
