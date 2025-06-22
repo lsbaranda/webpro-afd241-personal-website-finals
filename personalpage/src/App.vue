@@ -39,23 +39,7 @@
           </div> 
         </div> 
 
-      <div id="hiapp" class="flex-con type2">
-          <div id="clickWelder" class="flex-con type3">
-            <img src="./images/welderlogo.png" v-on:click=" lightOn =! lightOn "></img>
-          </div>  
 
-          <div id="clickOffroad" class="flex-con type3">  
-            <img src="./images/offroadlogo.png" v-on:click=" lightOn =! lightOn "></img>
-          </div>  
-
-          <div id="clickHike" class="flex-con type3">                    
-            <img src="./images/hikinglogo.png" v-on:click=" lightOn =! lightOn "></img>
-          </div>  
-
-          <div id="lightDiv" class="flex-con type3">           
-            <img src="./images/radiologo.png" v-on:click=" lightOn =! lightOn "></img>
-          </div> 
-        </div> 
 
         <div class="flex-con type2">
           <div class="flex-com type3">
@@ -75,14 +59,7 @@
 </template>
 
 <script setup>
-  const hiapp = Vue.createApp({
-    data() {
-      return {
-        lightOn: false
-      }
-    }
-  })
- app.mount('#hiapp')
+  
 </script>
 
 <style scoped>
