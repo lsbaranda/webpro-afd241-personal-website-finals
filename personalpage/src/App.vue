@@ -42,6 +42,7 @@
           </div> 
 
         </div> 
+        
       </div>
     
       <div class="flex-con type1">
@@ -56,3 +57,11 @@
 <script setup>
 
 </script>
+
+<style scoped>
+.container {
+  background-image: url('./images/transparent BG.png'); /* Relative path to your image */
+  background-size: cover; /* Optional: Adjust as needed (cover, contain, etc.) */
+  background-position: center; /* Optional: Adjust as needed */
+  background-repeat: no-repeat; /* Optional: Prevent repeating */
+}</style>
