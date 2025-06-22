@@ -40,7 +40,7 @@
         </div>
 
         <div class="flex-con type2">
-            <hobby-interest/>
+            <selection/>
         </div>
           
 
