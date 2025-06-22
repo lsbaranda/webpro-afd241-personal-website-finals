@@ -6,14 +6,12 @@
       </div>
       <div class="flex-con type4">
       <label for="name">Name:</label>
-
       <input v-model="name" type="text" id="name" required />
       </div>
       <div class="flex-con type4">
       <label for="reason">Reason for visiting:</label>
       <textarea v-model="reason" id="reason" required></textarea>
       </div>
-      <div class="flex-con type4">  </div>
       <div class="flex-con type4">
       <button type="submit">Sign Guestbook</button>
       </div>
@@ -25,7 +23,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { supabase } from '../lib/supabaseClient'
+import { supabase } from '../supabaseClient'
 
 
 const name = ref('');
