@@ -1,7 +1,7 @@
 <template>
     <div class="app">
-        <div v-for="(img, index) in images">
-            <img v-bind:src="url">
+        <div id="lightDiv" v-for="(img, index) in images">
+            <img v-bind:src="url" v-on:click=" lightOn =! lightOn ">
         </div>
     </div>
 </template>
