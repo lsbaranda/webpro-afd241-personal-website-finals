@@ -1,10 +1,10 @@
 header {
     background-image:URL('../src/assets/transparent BG.png');
     background-repeat: no-repeat;
-    background-color: #050505;
+    background-color: black;
     background-size: 1920px;
     padding: 20px;
-    border: 2px solid rgb(100, 100, 100);
+    border: 2px solid gray;
     border-radius: 15px;
     font-family: arial;
     color:white;

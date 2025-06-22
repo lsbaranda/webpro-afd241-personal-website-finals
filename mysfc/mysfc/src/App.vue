@@ -80,20 +80,8 @@ export default {
 <style scoped>
 @import 'css/style.css';
 
-.container {
-  padding: 2rem;
-  font-family: sans-serif;
-}
-.flex-con {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.flex-com {
-  cursor: pointer;
-}
-img {
-  max-width: 100px;
-  height: auto;
-}
+background-image:URL('assets/transparent BG.png');
+background-repeat: no-repeat;
+background-size: 1920px;
+font-family: Arial;
 </style>
