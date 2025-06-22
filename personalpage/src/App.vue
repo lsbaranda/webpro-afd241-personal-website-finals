@@ -39,7 +39,7 @@
           </div> 
         </div> 
 
-      <div id="app" class="flex-con type2">
+      <div id="hiapp" class="flex-con type2">
           <div id="clickWelder" class="flex-con type3">
             <img src="./images/welderlogo.png" v-on:click=" lightOn =! lightOn "></img>
           </div>  
@@ -75,14 +75,14 @@
 </template>
 
 <script setup>
-  const app = Vue.createApp({
+  const hiapp = Vue.createApp({
     data() {
       return {
         lightOn: false
       }
     }
   })
- app.mount('#app')
+ app.mount('#hiapp')
 </script>
 
 <style scoped>
