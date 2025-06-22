@@ -80,8 +80,4 @@ export default {
 <style scoped>
 @import 'css/style.css';
 
-background-image:URL('/assets/transparent BG.png');
-background-repeat: no-repeat;
-background-size: 1920px;
-font-family: Arial;
 </style>
