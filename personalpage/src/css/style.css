@@ -37,7 +37,8 @@ footer {
   
 .type2 {
     padding: 0px;
-    border-style: none;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 15px;
 }
 .type3 {
     background-color: rgba(33, 33, 33, 0.625);
