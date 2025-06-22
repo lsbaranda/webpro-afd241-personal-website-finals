@@ -3,14 +3,14 @@
 
     <header class="flex-con type0">
       <h1>Lyndon Baranda</h1>
+      <p>Hayward, California</p>
     </header>
 
     <div class="flex-con type1">
-      <div class="flex-con type2">
+      <div>
         <h3>Profession and Education:</h3>
-        <p>Hayward, California</p> 
       </div>
-      <div class="flex-con type2">
+      <div>
         <br>Tesla (TSLA)
         <br>BIM Specialist/Electrical Designer
         <br>BIM-CM Building Information Modeling - Construction Management
