@@ -40,20 +40,20 @@
         </div>
 
         <div id="hiapp" class="flex-con type2">
-          <div id="clickWelder" class="flex-con type3">
-            <img src="./images/welderlogo.png" v-on:click=" lightOn =! lightOn "></img>
+          <div class="flex-con type3">
+            <img src="./images/welderlogo.png"></img>
           </div>  
 
-          <div id="clickOffroad" class="flex-con type3">  
-            <img src="./images/offroadlogo.png" v-on:click=" lightOn =! lightOn "></img>
+          <div class="flex-con type3">  
+            <img src="./images/offroadlogo.png"></img>
           </div>  
 
-          <div id="clickHike" class="flex-con type3">                    
-            <img src="./images/hikinglogo.png" v-on:click=" lightOn =! lightOn "></img>
+          <div class="flex-con type3">                    
+            <img src="./images/hikinglogo.png"></img>
           </div>  
 
-          <div id="lightDiv" class="flex-con type3">           
-            <img src="./images/radiologo.png" v-on:click=" lightOn =! lightOn "></img>
+          <divclass="flex-con type3">           
+            <img src="./images/radiologo.png"></img>
           </div> 
         </div> 
 
@@ -68,36 +68,8 @@
 </template>
 
 <script setup>
-const hiapp = Vue.createApp({
-    data() {
-      return {
-        lightOn: false
-      }
-    }
-  })
- app.mount('#hiapp')  
+
 </script>
 
-<style>
-    #lightDiv {
-      position: relative;
-      width: 150px;
-      height: 150px;
-    }
-
-    #lightDiv > img {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-
-    #lightDiv > div {
-      position: absolute;
-      top: 10%;
-      left: 10%;
-      width: 80%;
-      height: 80%;
-      border-radius: 50%;
-      background-color: yellow;
-    }
+<style scoped>
 </style>
