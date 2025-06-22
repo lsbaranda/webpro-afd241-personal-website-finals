@@ -18,31 +18,33 @@
       <div class="flex-con type1">
 
         <div class="flex-con type2">
-
           <h3>Hobbies & Interests:</h3>
-
         </div>
 
         <div class="flex-con type2">
-
-          <div id="clickWelder" class="flex-com type3">
+          <div id="clickWelder" class="flex-con type3">
             <img onclick="myWelder()" src="./images/welderlogo.png"></img>
           </div>  
 
-          <div id="clickOffroad" class="flex-com type3">  
+          <div id="clickOffroad" class="flex-con type3">  
             <img onclick="myOffroad()" src="./images/offroadlogo.png"></img>
           </div>  
 
-          <div id="clickHike" class="flex-com type3">                    
+          <div id="clickHike" class="flex-con type3">                    
             <img onclick="myHike()" src="./images/hikinglogo.png"></img>
           </div>  
 
-          <div id="clickRadio" class="flex-com type3">           
+          <div id="clickRadio" class="flex-con type3">           
             <img onclick="myRadio()" src="./images/radiologo.png"></img>
           </div> 
-
         </div> 
-        
+
+        <div class="flex-con type2">
+          <div class="flex-com type3">
+            <hobby-interest/>
+          </div>
+        </div>
+
       </div>
     
       <div class="flex-con type1">

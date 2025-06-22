@@ -1,6 +1,8 @@
-import './css/main.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import './css/main.css';
+import hobint from './components/hobint.vue';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+const app = createApp(App)
+app.component('hobby-interest', hobint)
+app.mount('#app')

@@ -1,5 +1,5 @@
 <template>
-    <div class="hobintApp">
+    <div class="app">
         <div v-for="(img, index) in images">
             <img v-bind:src="img.url" v-on:click="select(index)" v-bind:class="{selClass: img.sel}">
         </div>
@@ -8,17 +8,22 @@
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script>
-    const hobintApp = Vue.createApp({
+    const app = Vue.createApp({
     data() {
      return {
        images: [
-         {name: 'Fabrication', url: '../src/images/welderlogo.png', sel: false},
-         {name: 'OffRoad', url: '../src/images/offroadlogo.png', sel: false},
-         {name: 'Hike', url: '../src/images/hikinglogo.png', sel: false},
-         {name: 'Radio', url: '../src/images/radiologo.png', sel: false}
+         {url: './images/welderlogo.png', sel: false},
+         {url: './images/offroadlogo.png', sel: false},
+         {url: './images/hikinglogo.png', sel: false},
+         {url: './images/radiologo.png', sel: false}
        ]
      }
+    },
+    methods: {
+      select(number) {
+        this.images[number].sel = !this.images[number].sel
+      }
     }
    })
-   hobintApp.mount('#hobintApp')
+app.mount('#app')
 </script>
