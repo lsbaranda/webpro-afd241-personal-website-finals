@@ -41,19 +41,7 @@
 
 
 
-        <div class="flex-con type2">
-          <div class="flex-com type3">
-            Hobbies and Interests
-            <hobby-interest/>
-          </div>
-        </div>
 
-      </div>
-  
-
-      <div class="flex-con type1">
-        <references/>
-	    </div>
 
   </div>
 </template>
@@ -63,25 +51,5 @@
 </script>
 
 <style scoped>
-#lightDiv {
-      position: relative;
-      width: 150px;
-      height: 150px;
-    }
 
-    #lightDiv > img {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-
-    #lightDiv > div {
-      position: absolute;
-      top: 10%;
-      left: 10%;
-      width: 80%;
-      height: 80%;
-      border-radius: 50%;
-      background-color: yellow;
-    }
 </style>
