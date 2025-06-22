@@ -18,7 +18,7 @@
           
 
     <div class="flex-con type1">
-      <div class="flex-con type4">
+      <div class="flex-con type25">
         <span class="title">Hobbies & Interests:</span><br>
       </div>
       <div class="flex-con type2">
@@ -35,7 +35,7 @@
         <guestform/>
       </div>
       <br>
-      <div class="flex-con type25">
+      <div class="flex-con type2">
         <guestlog/>
       </div>
     </footer>

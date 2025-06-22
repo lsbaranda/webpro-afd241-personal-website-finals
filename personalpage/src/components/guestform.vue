@@ -10,6 +10,8 @@
       </div>
       <div class="flex-con type4">
       <label for="reason">Reason for visiting:</label>
+      </div>
+      <div class="flex-con type4">
       <textarea v-model="reason" id="reason" required></textarea>
       </div>
       <div class="flex-con type4">
