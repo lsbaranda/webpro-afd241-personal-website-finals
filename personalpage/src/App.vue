@@ -56,15 +56,8 @@
             <img src="./images/radiologo.png"></img>
           </div> 
         </div> 
-          <div>  <ul>
-    <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
-  </ul></div>
 
       </div>
-
-
-
-
 
   </div>
 </template>
