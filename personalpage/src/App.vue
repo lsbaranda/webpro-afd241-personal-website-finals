@@ -39,7 +39,7 @@
           </div> 
         </div>
 
-          <div class="flex-com type2">
+          <div class="flex-con type2">
             Hobbies and Interests
             <hobbyinterest/>
           </div>

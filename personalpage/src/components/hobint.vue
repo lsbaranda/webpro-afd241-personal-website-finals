@@ -1,15 +1,15 @@
 <template>
-        <div id="lightDiv" class="flex-con type3" v-for="(img, index) in logos">
+        <div id="lightDiv" class="flex-con type3" v-for="(photo) in logos">
           <div v-show="lightOn"></div>
-          <img v-bind:src="url" v-on:click=" lightOn =! lightOn ">
+          <img :src="photo.src" v-on:click=" lightOn =! lightOn ">
         </div>
 </template>
 
 <script setup>
   import { ref } from 'vue'
     const logos = ref([
-         {src: './images/offroadlogo.png'},
-         {src: './images/hikinglogo.png'}
+         {src: './src/images/offroadlogo.png'},
+         {src: './src/images/hikinglogo.png'}
        ])
 
 </script>
