@@ -21,7 +21,7 @@
           <h3>Hobbies & Interests:</h3>
         </div>
 
-        <div id="hiapp" class="flex-con type2">
+        <div class="flex-con type2">
           <div class="flex-con type3">
             <img src="./images/welderlogo.png"></img>
           </div>  
