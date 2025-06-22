@@ -8,8 +8,8 @@
 <script setup>
   import { ref } from 'vue'
     const logos = ref([
-         {src: '../src/images/offroadlogo.png'},
-         {src: '../src/images/hikinglogo.png'}
+         {src: '/images/offroadlogo.png'},
+         {src: '/images/hikinglogo.png'}
        ])
 
 </script>

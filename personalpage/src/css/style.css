@@ -1,5 +1,5 @@
 body {
-    background-image:URL('./images/transparent BG.png');
+    background-image:URL('../images/transparent BG.png');
     background-repeat: no-repeat;
     background-size: 1920px;
     font-family: Arial;
@@ -29,7 +29,7 @@ footer {
       font-family: arial;
   }
 .type1 {
-    background-color: #75757575;
+    background-color: #75757595;
     padding: 5px;
     border: 2px solid rgb(100, 100, 100);
     border-radius: 15px;
