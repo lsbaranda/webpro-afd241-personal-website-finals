@@ -39,21 +39,21 @@
           </div> 
         </div> 
 
-      <div class="flex-con type2">
+      <div id="app" class="flex-con type2">
           <div id="clickWelder" class="flex-con type3">
-            <img onclick="myWelder()" src="./images/welderlogo.png"></img>
+            <img src="./images/welderlogo.png" v-on:click=" lightOn =! lightOn "></img>
           </div>  
 
           <div id="clickOffroad" class="flex-con type3">  
-            <img onclick="myOffroad()" src="./images/offroadlogo.png"></img>
+            <img src="./images/offroadlogo.png" v-on:click=" lightOn =! lightOn "></img>
           </div>  
 
           <div id="clickHike" class="flex-con type3">                    
-            <img onclick="myHike()" src="./images/hikinglogo.png"></img>
+            <img src="./images/hikinglogo.png" v-on:click=" lightOn =! lightOn "></img>
           </div>  
 
-          <div id="clickRadio" class="flex-con type3">           
-            <img onclick="myRadio()" src="./images/radiologo.png"></img>
+          <div id="lightDiv" class="flex-con type3">           
+            <img src="./images/radiologo.png" v-on:click=" lightOn =! lightOn "></img>
           </div> 
         </div> 
 
@@ -80,14 +80,36 @@
 </template>
 
 <script setup>
-
+  const app = Vue.createApp({
+    data() {
+      return {
+        lightOn: false
+      }
+    }
+  })
+ app.mount('#app')
 </script>
 
 <style scoped>
-.container {
-  background-image: url('./images/transparent BG.png'); /* Relative path to your image */
-  background-size: cover; /* Optional: Adjust as needed (cover, contain, etc.) */
-  background-position: center; /* Optional: Adjust as needed */
-  background-repeat: no-repeat; /* Optional: Prevent repeating */
-}
+#lightDiv {
+      position: relative;
+      width: 150px;
+      height: 150px;
+    }
+
+    #lightDiv > img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    #lightDiv > div {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      background-color: yellow;
+    }
 </style>
