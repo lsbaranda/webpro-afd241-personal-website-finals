@@ -8,17 +8,17 @@
 
     <div class="flex-con type1">
       <div>
-        <h4>Profession and Education:</h4>
-        <span>Tesla (TSLA)</span>
-        <span>BIM Specialist/Electrical Designer</span><br>
-        <span>BIM-CM Building Information Modeling - Construction Management</span><br>
-        <span>Bachelor of Science in Computer Science - BSCS-IT SSE</span><br>
+        <span class="title">Profession and Education:</span>
+        <span class="contents">Tesla (TSLA)</span>
+        <span class="contents">BIM Specialist/Electrical Designer</span><br>
+        <span class="contents">BIM-CM Building Information Modeling - Construction Management</span><br>
+        <span class="contents">Bachelor of Science in Computer Science - BSCS-IT SSE</span><br>
       </div>
     </div>
           
 
     <div class="flex-con type1">
-        <span>Hobbies & Interests:</span><br>
+        <span class="title">Hobbies & Interests:</span><br>
     
       <div class="flex-con type2">
           <galleryhiking/>
