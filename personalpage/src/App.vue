@@ -23,9 +23,8 @@
 
         <div class="flex-con type2">
           <div class="flex-con type3">
-            <img src="./images/welderlogo.png"></img>
-          </div>  
-
+            <h3>Hobbies & Interests:</h3>
+          </div>
           <div class="flex-con type3">  
             <img src="./images/offroadlogo.png"></img>
           </div>  
@@ -34,13 +33,12 @@
             <img src="./images/hikinglogo.png"></img>
           </div>  
 
-          <div class="flex-con type3">           
-            <img src="./images/radiologo.png"></img>
-          </div> 
         </div>
 
           <div class="flex-con type2">
-            Hobbies and Interests
+            <div class="flex-con type3">
+            <h3>Hobbies & Interests:</h3>
+            </div>
             <hobbyinterest/>
           </div>
           
