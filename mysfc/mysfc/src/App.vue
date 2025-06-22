@@ -20,16 +20,16 @@
         </div>
         <div class="flex-con type2">
           <div class="flex-com type3" @click="myWelder">
-            <img src="../welderlogo.png" alt="Welder">
+            <img src="../assets/welderlogo.png" alt="Welder">
           </div>
           <div class="flex-com type3" @click="myOffroad">
-            <img src="../offroadlogo.png" alt="Offroad">
+            <img src="../assets/offroadlogo.png" alt="Offroad">
           </div>
           <div class="flex-com type3" @click="myHike">
-            <img src="../hikinglogo.png" alt="Hiking">
+            <img src="../assets/hikinglogo.png" alt="Hiking">
           </div>
           <div class="flex-com type3" @click="myRadio">
-            <img src="../radiologo.png" alt="Radio">
+            <img src="../assets/radiologo.png" alt="Radio">
           </div>
         </div>
       </section>
