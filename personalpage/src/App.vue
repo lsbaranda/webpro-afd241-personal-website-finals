@@ -41,6 +41,7 @@
 
         <div class="flex-con type2">
           <div class="flex-com type3">
+            Hobbies and Interests
             <hobby-interest/>
           </div>
         </div>
@@ -51,7 +52,7 @@
         <guestbook-form/>
         <guestbook-logs/>
         <documentation/>
-	</div>
+	    </div>
 
   </div>
 </template>
@@ -66,4 +67,5 @@
   background-size: cover; /* Optional: Adjust as needed (cover, contain, etc.) */
   background-position: center; /* Optional: Adjust as needed */
   background-repeat: no-repeat; /* Optional: Prevent repeating */
-}</style>
+}
+</style>
