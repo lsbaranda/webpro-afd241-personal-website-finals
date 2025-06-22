@@ -13,7 +13,6 @@
         <span>BIM Specialist/Electrical Designer</span>
         <span>BIM-CM Building Information Modeling - Construction Management</span>
         <span>Bachelor of Science in Computer Science - BSCS-IT SSE</span>
-        </p>
       </div>
     </div>
           
