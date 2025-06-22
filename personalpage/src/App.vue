@@ -20,13 +20,12 @@
 
       <div class="flex-con type1">
         <h3>Hobbies & Interests:</h3>
-        <div class="flex-con type2">
-          <galleryhiking/>
-        </div>
       </div>
-          
-
+      <div class="flex-con type2">
+          <galleryhiking/>
+      </div>
     </div>
+          
     
     <footer class="flex-con type1">
       <div class="flex-con type2">
