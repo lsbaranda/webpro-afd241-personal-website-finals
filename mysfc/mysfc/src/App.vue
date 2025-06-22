@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="..css/css-flexbox-grid.css?version=0.1">
   <div class="container">
     <header>
       <h2>Lyndon Baranda</h2>
@@ -19,17 +20,17 @@
           <h3>Hobbies & Interests:</h3>
         </div>
         <div class="flex-con type2">
-          <div class="flex-com type3" @click="myWelder">
-            <img src="../assets/welderlogo.png" alt="Welder">
+          <div class="flex-con type3" @click="myWelder">
+            <img src="../src/assets/welderlogo.png" alt="Welder">
           </div>
-          <div class="flex-com type3" @click="myOffroad">
-            <img src="../assets/offroadlogo.png" alt="Offroad">
+          <div class="flex-con type3" @click="myOffroad">
+            <img src="../src/assets/offroadlogo.png" alt="Offroad">
           </div>
-          <div class="flex-com type3" @click="myHike">
-            <img src="../assets/hikinglogo.png" alt="Hiking">
+          <div class="flex-con type3" @click="myHike">
+            <img src="../src/assets/hikinglogo.png" alt="Hiking">
           </div>
-          <div class="flex-com type3" @click="myRadio">
-            <img src="../assets/radiologo.png" alt="Radio">
+          <div class="flex-con type3" @click="myRadio">
+            <img src="../src/assets/radiologo.png" alt="Radio">
           </div>
         </div>
       </section>
