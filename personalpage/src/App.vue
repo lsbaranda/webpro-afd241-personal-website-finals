@@ -37,79 +37,54 @@
           <div id="clickRadio" class="flex-con type3">           
             <img onclick="myRadio()" src="./images/radiologo.png"></img>
           </div> 
-        </div> 
+        </div>
 
-      <div id="app" class="flex-con type2">
-          <div id="clickWelder" class="flex-con type3">
-            <img src="./images/welderlogo.png" v-on:click=" lightOn =! lightOn "></img>
+        <div id="hiapp" class="flex-con type2">
+          <div class="flex-con type3">
+            <img src="./images/welderlogo.png"></img>
           </div>  
 
-          <div id="clickOffroad" class="flex-con type3">  
-            <img src="./images/offroadlogo.png" v-on:click=" lightOn =! lightOn "></img>
+          <div class="flex-con type3">  
+            <img src="./images/offroadlogo.png"></img>
           </div>  
 
-          <div id="clickHike" class="flex-con type3">                    
-            <img src="./images/hikinglogo.png" v-on:click=" lightOn =! lightOn "></img>
+          <div class="flex-con type3">                    
+            <img src="./images/hikinglogo.png"></img>
           </div>  
 
-          <div id="lightDiv" class="flex-con type3">           
-            <img src="./images/radiologo.png" v-on:click=" lightOn =! lightOn "></img>
+          <div class="flex-con type3">           
+            <img src="./images/radiologo.png"></img>
           </div> 
         </div> 
 
-        <div class="flex-con type2">
-          <div class="flex-com type3">
-            Hobbies and Interests
-            <hobby-interest/>
-          </div>
-        </div>
-
       </div>
-    
-      <div class="flex-con type1">
-        <guestbook-form/>
-        <guestbook-logs/>
-        <documentation/>
-	    </div>
-
-      <div class="flex-con type1">
-        <references/>
-	    </div>
 
   </div>
 </template>
 
 <script setup>
-  const app = Vue.createApp({
-    data() {
-      return {
-        lightOn: false
-      }
-    }
-  })
- app.mount('#app')
+<script setup>
+import { ref, onMounted } from 'vue'
+import { supabase } from './lib/supabaseClient'
+
+const instruments = ref([])
+
+async function getInstruments() {
+  const { data } = await supabase.from('instruments').select()
+  instruments.value = data
+}
+
+onMounted(() => {
+   getInstruments()
+})
+</script>
+
+<template>
+  <ul>
+    <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
+  </ul>
+</template>
 </script>
 
 <style scoped>
-#lightDiv {
-      position: relative;
-      width: 150px;
-      height: 150px;
-    }
-
-    #lightDiv > img {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-
-    #lightDiv > div {
-      position: absolute;
-      top: 10%;
-      left: 10%;
-      width: 80%;
-      height: 80%;
-      border-radius: 50%;
-      background-color: yellow;
-    }
 </style>
