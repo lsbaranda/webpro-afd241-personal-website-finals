@@ -56,11 +56,7 @@
             <img src="./images/radiologo.png"></img>
           </div> 
         </div>
-        <div>  
-          <ul>
-          <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
-          </ul>
-        </div>
+
 
       </div>
 
@@ -69,17 +65,5 @@
 
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { supabase } from './lib/supabaseClient'
 
-const instruments = ref([])
-
-async function getInstruments() {
-  const { data } = await supabase.from('instruments').select()
-  instruments.value = data
-}
-
-onMounted(() => {
-   getInstruments()
-})
 </script>
