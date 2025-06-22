@@ -57,6 +57,14 @@ footer {
     margin-top: 10px;
     font-family: Arial;
 }
+.titleW  {
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Arial;
+}
 .contents  {
     color: black;
     font-size: 12px;
