@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css-flexbox-grid.css?version=0.1">
+    <link rel="stylesheet" href="css/style.css?version=0.1">
+<title>Page Title</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h2>Lyndon Baranda</h2>
+        <p>Hayward California</p>
+    </header>
+    <main>
+      <div class="flex-con type1">
+        <h3>Profession and Education:</h3>
+          <br>Tesla (TSLA)
+          <br>BIM Specialist/Electrical Designer
+          <br>BIM-CM Building Information Modeling - Construction Management
+          <br>Bachelor of Science in Computer Science - BSCS-IT SSE
+      </div>
+      <div class="flex-con type1">
+        <div class="flex-con type2">
+          <h3>Hobbies & Interests:</h3>
+        </div>
+        <div class="flex-con type2">
+          <div id="clickWelder" class="flex-com type3">
+            <img onclick="myWelder()" src="images/welderlogo.png"></img>
+          </div>  
+          <div id="clickOffroad" class="flex-com type3">  
+            <img onclick="myOffroad()" src="images/offroadlogo.png"></img>
+          </div>  
+          <div id="clickHike" class="flex-com type3">                    
+            <img onclick="myHike()" src="images/hikinglogo.png"></img>
+          </div>  
+          <div id="clickRadio" class="flex-com type3">           
+            <img onclick="myRadio()" src="images/radiologo.png"></img>
+          </div> 
+        </div> 
+      </div>
+    </main>
+    <footer>
+        Picture Gallery
+        <div id="imageApp">
+          <div>
+            <figure v-for="x in manyWelds">
+              <img v-bind:src="x.url" height="256px">
+            </figure>
+          </div>
+        </div>
+    </footer>
+    <div>References:</div>
+  </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="js/myscript.js"></script>
+  <script src="js/myimages.js"></script>
+</body>
+</html>
