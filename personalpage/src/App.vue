@@ -8,26 +8,25 @@
 
     <div class="flex-con type1">
       <div>
-        <h3>Profession and Education:</h3>
-      </div>
-      <div>
-        <br>Tesla (TSLA)
-        <br>BIM Specialist/Electrical Designer
-        <br>BIM-CM Building Information Modeling - Construction Management
-        <br>Bachelor of Science in Computer Science - BSCS-IT SSE
+        <h4>Profession and Education:</h4>
+        <span>Tesla (TSLA)</span>
+        <span>BIM Specialist/Electrical Designer</span>
+        <span>BIM-CM Building Information Modeling - Construction Management</span>
+        <span>Bachelor of Science in Computer Science - BSCS-IT SSE</span>
+        </p>
       </div>
     </div>
           
 
     <div class="flex-con type1">
-        <h3>Hobbies & Interests:</h3>
-    </div>
-      
-          <galleryhiking/>
-      
-          <galleryhiking/>
-      
+        <h4>Hobbies & Interests:</h4>
     
+      
+          <galleryhiking/>
+      
+          <galleryoffroad/>
+      
+    </div>
           
     
     <footer class="flex-con type1">

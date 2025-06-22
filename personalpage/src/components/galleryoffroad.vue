@@ -1,5 +1,4 @@
 <template>
-
     <div class="gallery-wrapper">
         <div class="collage">
             <div

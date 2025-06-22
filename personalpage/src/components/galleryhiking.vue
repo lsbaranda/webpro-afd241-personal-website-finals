@@ -1,14 +1,16 @@
 <template>
-
-      <div
+    <div class="gallery-wrapper">
+        <div class="collage">
+            <div
         v-for="(photo, index) in photos"
         :key="index"
-        class="flex-con type3"
+        class="collage-item"
         :style="getItemStyle(index)"
       >
         <img :src="photo.src" :alt="'Photo ' + (index + 1)" />
-      </div>
-
+            </div>
+        </div>
+    </div>
 </template>
 
 <script setup>
