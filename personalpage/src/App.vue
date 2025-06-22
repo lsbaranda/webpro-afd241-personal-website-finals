@@ -65,12 +65,7 @@
         </div>
 
       </div>
-    
-      <div class="flex-con type1">
-        <guestbook-form/>
-        <guestbook-logs/>
-        <documentation/>
-	    </div>
+  
 
       <div class="flex-con type1">
         <references/>
