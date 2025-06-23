@@ -26,11 +26,11 @@ const photos = ref([
 
 function getItemStyle(index) {
   const styles = [
-    { flex: '1 1 60%', height: '200px' },
+    { flex: '1 1 60%', height: '350px' },
     { flex: '1 1 30%', height: '350px' },
-    { flex: '1 1 40%', height: '150px' },
-    { flex: '1 1 30%', height: '150px' },
-    { flex: '1 1 30%', height: '250px' }
+    { flex: '1 1 40%', height: '250px' },
+    { flex: '1 1 30%', height: '250px' },
+    { flex: '1 1 30%', height: '400px' }
   ]
   return styles[index] || { flex: '1 1 45%', height: '150px' }
 }

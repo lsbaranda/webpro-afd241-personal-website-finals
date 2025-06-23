@@ -33,23 +33,30 @@ const reason = ref('');
 const submissionStatus = ref(null);
 
 
-async function submitForm() {
+async function submitForm() 
+{
 submissionStatus.value = "Submitting...";
-    try {
+    try 
+    {
       const { error } = await supabase
         .from('guestbooks')
         .insert([{ name: name.value, reason: reason.value }]);
   
-      if (error) {
+      if (error) 
+      {
         console.error("Error inserting comment:", error);
         submissionStatus.value = "Error submitting entry. Please try again.";
-      } else {
+      } 
+      else 
+      {
         submissionStatus.value = "Signed successfully!";
         name.value = ''; // Clear form fields
         reason.value = '';
         emit('comment-submitted')//added
       }
-    } catch (err) {
+    } 
+    catch (err) 
+    {
       console.error("An unexpected error occurred:", err);
       submissionStatus.value = "An unexpected error occurred. Please try again later.";
     }
