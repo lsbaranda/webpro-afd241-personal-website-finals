@@ -1,9 +1,10 @@
 <template>
-  <div class="comment-section">
-    <h4>Signatures</h4>
-
+  <div>
+    <div class="flex-con type4">
+    <span class="title">Signatures</span>
+    </div>
     <ul>
-      <li v-for="guestbook in guestbooks" :key="guestbook.id">
+      <li v-for="guestbook in guestbooks" :key="guestbook.id" class="flex-con type4">
         <p> Visitor:  {{ guestbook.name }}</p> <p> Reason for visiting:  {{ guestbook.reason }}</p>
       </li>
     </ul>
@@ -13,7 +14,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { supabase } from './lib/supabaseClient'
+import { supabase } from '../lib/supabaseClient'
 
 
 const guestbooks = ref([])

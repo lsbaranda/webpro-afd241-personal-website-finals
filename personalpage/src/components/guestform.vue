@@ -1,27 +1,31 @@
 <template>
   <div>
-  <form @submit.prevent="submitForm" class="guestbook-form">
-    <h2>Guestbook</h2>
-
-    <label for="name">Name:</label>
-    <input v-model="name" type="text" id="name" required />
-
-    <label for="reason">Reason for visiting:</label>
-    <textarea v-model="reason" id="reason" required></textarea>
-
-    <button type="submit">Sign Guestbook</button>
-    <div v-if="submissionStatus" class="thank-you">
-
-    </div>
-
-  
-  </form>
+    <form @submit.prevent="submitForm" class="guestbook-form">
+      <div class="flex-con type4">
+      <span class="title">Guestbook</span><br>
+      </div>
+      <div class="flex-con type4">
+      <label for="name">Name:</label>
+      <input v-model="name" type="text" id="name" required />
+      </div>
+      <div class="flex-con type4">
+      <label for="reason">Reason for visiting:</label>
+      </div>
+      <div class="flex-con type4">
+      <textarea v-model="reason" id="reason" required></textarea>
+      </div>
+      <div class="flex-con type4">
+      <button type="submit">Sign Guestbook</button>
+      </div>
+      <div v-if="submissionStatus" class="thank-you">
+      </div>
+    </form>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { supabase } from './lib/supabaseClient'
+import { supabase } from '../lib/supabaseClient.js'
 
 
 const name = ref('');

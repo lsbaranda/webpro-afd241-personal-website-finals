@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    max-height: 50px;
+    max-height: 40px;
     gap: 10px;
 }
   
@@ -27,14 +27,25 @@
 }
 
 .type2 {
-  display: grid;
+  display: flex;
+  gap: 10px;
+}
+.type25 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   column-gap: 10px;
   row-gap: 10px;
-  grid-template-columns: auto auto;
 }
 .type3 {
   max-width: 192px;
   max-height: 192px;
+  margin: 5px;
+}
+.type4 {
+  flex-direction: row;
+  min-width: 350px;
+  max-height: 20px;
   margin: 5px;
 }
 

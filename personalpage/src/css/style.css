@@ -1,5 +1,5 @@
 body {
-    background-image:URL('/images/transparent BG.png');
+    background-image:URL('./images/transparent BG.png');
     background-repeat: no-repeat;
     background-size: 1920px;
     font-family: Arial;
@@ -10,7 +10,7 @@ img {
 }
 
 header {
-    background-image:URL('/images/transparent BG.png');
+    background-image:URL('./images/transparent BG.png');
     background-repeat: no-repeat;
     background-color: #050505;
     background-size: 1920px;
@@ -37,11 +37,44 @@ footer {
   
 .type2 {
     padding: 0px;
-    border-style: none;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 15px;
 }
 .type3 {
     background-color: rgba(33, 33, 33, 0.625);
     padding: 0px;
     border-style: none;
     border-radius: 15px;
+}
+.type4 {
+    padding: 10px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+
+/* text */
+.title  {
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Arial;
+}
+.titleW  {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Arial;
+}
+.contents  {
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Arial;
 }
