@@ -16,8 +16,8 @@
       </div>
       <div class="flex-con type4">
       <button type="submit">Sign Guestbook</button>
-      </div>
       <div v-if="submissionStatus" class="thank-you">
+      </div>
       </div>
     </form>
   </div>
