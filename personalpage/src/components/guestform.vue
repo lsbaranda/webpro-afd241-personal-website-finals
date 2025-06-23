@@ -37,7 +37,7 @@ async function submitForm() {
 submissionStatus.value = "Submitting...";
     try {
       const { error } = await supabase
-        .from('guestbook')
+        .from('guestbooks')
         .insert([{ name: name.value, reason: reason.value }]);
   
       if (error) {

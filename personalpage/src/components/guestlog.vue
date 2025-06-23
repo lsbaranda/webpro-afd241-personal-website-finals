@@ -4,8 +4,8 @@
     <span class="title">Signatures</span>
     </div>
     <ul>
-      <li v-for="guestbook in guestbooks" :key="guestbook.id" class="flex-con type4">
-        <p> Visitor:  {{ guestbook.name }}</p> <p> Reason for visiting:  {{ guestbook.reason }}</p>
+      <li v-for="guestbooks in guestbooks" :key="guestbooks.id" class="flex-con type4">
+        <p> Visitor:  {{ guestbooks.name }}</p> <p> Reason for visiting:  {{ guestbooks.reason }}</p>
       </li>
     </ul>
 
@@ -20,7 +20,7 @@ import { supabase } from '../lib/supabaseClient'
 const guestbooks = ref([])
 
 async function getGuestbook() {
-  const { data, error } = await supabase.from('guestbook').select('*')
+  const { data, error } = await supabase.from('guestbooks').select('*')
   if (error) {
     console.error('Error fetching guestbook:', error)
   } else {
