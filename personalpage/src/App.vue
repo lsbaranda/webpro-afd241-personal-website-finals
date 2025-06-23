@@ -44,7 +44,8 @@
 
     <div class="flex-con type2">
       <div class="flex-con type4">
-      <span class="title"> References: </span>
+      <span class="title"> References & Resources: </span>
+      <span class="contents">ChatGPT https://chatgpt.com/</span>
       <span class="contents">W3Schools https://www.w3schools.com</span>
       <span class="contents">LinkedIn Learning https://www.linkedin.com/learning/</span>
       </div>
