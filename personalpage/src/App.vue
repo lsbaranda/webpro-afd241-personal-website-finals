@@ -2,10 +2,10 @@
   <div class="container">
 
     <header class="flex-con type0">
-      <div class="flex-con type4">
+      
       <h1>Lyndon Baranda</h1><br></br>
       <span class="titleW">Hayward, California</span>
-      </div>
+      
     </header>
 
     <div class="flex-con type1">
