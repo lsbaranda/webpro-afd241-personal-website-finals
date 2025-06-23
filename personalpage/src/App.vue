@@ -5,7 +5,9 @@
       <div class="type4">
       <h1>Lyndon Baranda</h1>
       </div>
+      <div class="type4">
       <span class="titleW">Hayward, California</span>
+      </div>
     </header>
 
     <div class="flex-con type1">
