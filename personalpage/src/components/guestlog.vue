@@ -3,11 +3,13 @@
     <div class="flex-con type4">
     <span class="title">Signatures</span>
     </div>
+    <div class="flex-con type4"></div>
     <ul>
-      <li v-for="guestbooks in guestbooks" :key="guestbooks.id" class="flex-con type4">
+      <li v-for="guestbooks in guestbooks" :key="guestbooks.id">
         <p> Visitor:  {{ guestbooks.name }}</p> <p> Reason for visiting:  {{ guestbooks.reason }}</p>
       </li>
     </ul>
+    </div>
 
   </div>
 </template>
