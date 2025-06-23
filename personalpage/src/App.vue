@@ -40,6 +40,16 @@
       </div>
     </footer>
 
+    <div class="flex-con type0">
+      <span class="title"> References: </span>
+      <span class="contents">W3Schools https://www.w3schools.com</span>
+      <span class="contents"></span>
+      <span class="title"> Speacial thanks: </span>
+      <span class="contents">Mr. Joe Quesada</span>
+      <span class="contents">Ms. Sharmaine Migriño</span>
+      <span class="contents">and the rest of AFD241 - WEBPROG Class</span>
+    </div>
+
   </div>
 </template>
 
