@@ -17,11 +17,11 @@
 import { ref } from 'vue'
 
 const photos = ref([
-  { src: '../images/offroad/Offroad01.jpg' },
+  { src: './images/offroad/Offroad01.jpg' },
   { src: './images/offroad/Offroad02.jpg' },
-  { src: 'src/images/offroad/Offroad03.jpg' },
-  { src: '/src/images/offroad/Offroad04.jpg' },
-  { src: '.src/images/offroad/Offroad05.jpg' }
+  { src: './images/offroad/Offroad03.jpg' },
+  { src: './images/offroad/Offroad04.jpg' },
+  { src: './images/offroad/Offroad05.jpg' }
 ])
 
 function getItemStyle(index) {
