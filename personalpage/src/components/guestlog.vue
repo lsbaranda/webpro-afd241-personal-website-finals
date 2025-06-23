@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex-con type4">
-    <span class="title">Signatures</span>
+    <span class="title">Guests:</span>
     </div>
     
     <ul>
