@@ -6,7 +6,7 @@
     
     <ul>
       <li v-for="guestbooks in guestbooks" :key="guestbooks.id">
-        <div class="flex-con type4"></div>
+        <div class="flex-con type4">
         <p> Visitor:  {{ guestbooks.name }}</p> <p> Reason for visiting:  {{ guestbooks.reason }}</p>
         </div>
       </li>
