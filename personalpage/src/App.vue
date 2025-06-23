@@ -41,17 +41,17 @@
     </footer>
 
     <div class="flex-con type2">
-      <div class="flex-con type2">
-      <span class="title"> References: </span>
+      <div class="flex-con type4">
+      <span class="title"> References: </span><br>
       <span class="contents">W3Schools https://www.w3schools.com</span>
-      <span class="contents"></span>
+      <span class="contents">LinkedIn Learning https://www.linkedin.com/learning/</span>
       </div>
     </div>
     <div class="flex-con type2">
       <div class="flex-con type4">
-      <span class="title"> Speacial thanks: </span>
-      <span class="contents">Mr. Joe Quesada</span>
-      <span class="contents">Ms. Sharmaine Migriño</span>
+      <span class="title"> Speacial thanks: </span><br></br>
+      <span class="contents">Mr. Joe Quesada</span><br></br>
+      <span class="contents">Ms. Sharmaine Migriño</span><br></br>
       <span class="contents">and the rest of AFD241 - WEBPROG Class</span>
       </div>
     </div>
